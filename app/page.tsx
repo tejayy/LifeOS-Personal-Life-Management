@@ -116,7 +116,7 @@ export default function Dashboard() {
         animate="visible"
         className="space-y-8"
       >
-        {/* Stats */}
+        {/* Key Stats */}
         <motion.section
           variants={itemVariants}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
@@ -155,7 +155,7 @@ export default function Dashboard() {
           />
         </motion.section>
 
-        {/* Charts Sections */}
+        {/* Charts Section */}
         <motion.section
           variants={itemVariants}
           className="grid grid-cols-1 lg:grid-cols-2 gap-6"
