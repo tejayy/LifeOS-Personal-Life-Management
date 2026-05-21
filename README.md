@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LifeOS — Personal Life Management System
 
-## Getting Started
+LifeOS is a modern all-in-one personal management platform designed to help you organize every aspect of your life in one place. From tasks and goals to habits, journaling, finance, productivity, and daily planning — LifeOS acts as your personal operating system for growth and consistency.
 
-First, run the development server:
+Built with a clean UI, scalable architecture, and productivity-first design, LifeOS combines multiple self-management tools into a single seamless experience. Inspired by the idea of replacing scattered productivity apps with one unified workflow. ([LifeOS — Free AI Life Operating System][1])
+
+## ✨ Features
+
+* ✅ Task & Project Management
+* 🎯 Goal Tracking System
+* 🔥 Habit Tracker with Streaks
+* 📅 Smart Daily Planner
+* 🧠 Journal & Mood Tracking
+* 💰 Personal Finance Management
+* 📊 Productivity Analytics
+* ⚡ Fast & Responsive UI
+* 🌙 Dark Mode Support
+* 📱 Mobile-Friendly Design
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* PostgreSQL / Prisma *(if applicable)*
+
+### Other Tools
+
+* JWT Authentication
+* REST APIs
+* Zustand / Context API
+* Framer Motion *(if used)*
+
+## 🚀 Goal of the Project
+
+Most productivity tools solve only one problem — tasks, notes, habits, or finance. LifeOS is designed to combine everything into a single productivity ecosystem that helps users manage their entire life more intentionally and efficiently. ([LifeOS — Free AI Life Operating System][1])
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/tejayy/LifeOS-Personal-Life-Management.git
+
+# Navigate into the project
+cd LifeOS-Personal-Life-Management
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a `.env` file in the root directory and add:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+VITE_API_URL=your_api_url
+JWT_SECRET=your_secret
+DATABASE_URL=your_database_url
+```
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+Add screenshots or demo GIFs here.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📈 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* AI-powered productivity assistant
+* Calendar integrations
+* Notifications & reminders
+* Team collaboration
+* Cloud sync
+* Mobile app support
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions, issues, and feature requests are welcome.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Developed by T J.
+
+[1]: https://www.runlifeos.com/?utm_source=chatgpt.com "LifeOS — Your Life, One System"
